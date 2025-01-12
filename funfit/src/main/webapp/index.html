@@ -19,7 +19,8 @@
         <a href="participants">Add and Update Participant</a> <br>
         
         <h4>Add a New Participant</h4>
-        <form action="participants" method="post">
+        <form action="/funfit/participants" method="post">
+        <input type="hidden" name="action" value="add">
             <input type="text" name="name" placeholder="Name" required> <br>
             <input type="email" name="email" placeholder="Email" required> <br>
             <input type="number" name="batchId" placeholder="Batch ID" required> <br>
