@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Gym Management Solution</title>
+    <style>
+        .center {
+            margin: auto;
+            width: 60%;
+            border: 3px solid #2222FF;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h3>Welcome to Gym Management Solution</h3>
+        <a href="batches">Add and Update Batch</a> <br>
+        <a href="participants">Add and Update Participant</a> <br>
+        
+        <h4>Add a New Participant</h4>
+        <form action="participants" method="post">
+            <input type="text" name="name" placeholder="Name" required> <br>
+            <input type="email" name="email" placeholder="Email" required> <br>
+            <input type="number" name="batchId" placeholder="Batch ID" required> <br>
+            <button type="submit">Add Participant</button>
+        </form>
+    </div>
+</body>
+</html>
